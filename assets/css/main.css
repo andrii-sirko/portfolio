@@ -1,4 +1,3 @@
-@import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 
 /*
@@ -1414,6 +1413,9 @@ body.is-preload #bg:before {
 }
 
 #header .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 5.5rem;
   height: 5.5rem;
   line-height: 5.5rem;
@@ -1788,6 +1790,10 @@ body.is-preload #footer {
   height: 1em;
   overflow: visible;
   vertical-align: -0.125em;
+}
+
+.svg-inline-react {
+  height: 4em;
 }
 
 #about .img-content {
