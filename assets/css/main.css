@@ -1797,9 +1797,9 @@ body.is-preload #footer {
 }
 
 #about .img-content {
-  display: block;
-  margin: 0 auto;
   padding-top: 20px;
+  width: 100%;
+  height: fit-content;
 }
 
 .noMargin {
